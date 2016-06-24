@@ -28,5 +28,5 @@ class Choice(models.Model):
     question = models.ForeignKey(Question)
 
     def __unicode__(self):
-        return self.question_text
+        return self.choice_text
     
